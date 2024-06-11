@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sparklepop"
+version = "0.1.3"
+description = ""
+authors = ["Daniel B <34192225+danielbeach@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "^1.34.124"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.2"
+pytest-mock = "^3.14.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
