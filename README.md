@@ -66,6 +66,9 @@ print(f"Free disk space: {free_space} GB")
 sparklepop.check_on_free_disk_space(minimum_gb=10)
 ```
 
+## Tests
+Run `poetry run pytest`
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
